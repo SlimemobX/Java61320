@@ -2,7 +2,7 @@ package com.syntax.class05;
 
 import java.util.Scanner;
 
-public class HwCw {
+public class Homework5 {
 	public static void main(String[] args) {
 		
 	// Write a program that will read three inputs of scores (quiz, mid term, and final scores) and determine the grade based on the following rules: 

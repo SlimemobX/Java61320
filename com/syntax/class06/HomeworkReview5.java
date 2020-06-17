@@ -2,7 +2,7 @@ package com.syntax.class06;
 
 import java.util.Scanner;
 
-public class Homework {
+public class HomeworkReview5 {
 	public static void main(String[] args) {
 		// Albert Einstein said:
 		// Spend 95% of the time to understand the problem

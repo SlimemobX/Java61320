@@ -2,7 +2,7 @@ package com.syntax.class04;
 
 import java.util.Scanner;
 
-public class ScannerTask {
+public class Homework4 {
 	public static void main(String[] args) {
 		
 		

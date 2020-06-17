@@ -1,6 +1,6 @@
 package com.syntax.class04;
 
-public class HomeworkReview {
+public class HomeworkReview3 {
 	public static void main(String[] args) {
 		// Task 2:
 		int num = 79;

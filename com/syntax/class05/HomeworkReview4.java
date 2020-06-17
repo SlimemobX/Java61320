@@ -2,7 +2,7 @@ package com.syntax.class05;
 
 import java.util.Scanner;
 
-public class Homework {
+public class HomeworkReview4 {
 	public static void main(String[] args) {
 		//Create a Java program that will ask if user has a credit card or not. 
 				//If your user does not have a credit card then offer them. 

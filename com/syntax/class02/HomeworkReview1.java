@@ -1,6 +1,6 @@
 package com.syntax.class02;
 
-public class Homework1 {
+public class HomeworkReview1 {
 	
 	
 		// Create a java program (class) and name it PracticeVariable
