@@ -30,7 +30,11 @@ public class HomeworkReview7 {
 	for (int j = 5; j >= 1; j--) {
 		System.out.println(j);
 	}
-	
-	
+	System.out.println("-------------What is the result?---------");
+	int total =1;
+	for (int k =1; k<= 4; k++) {
+		System.out.println(k);;
+	}
+	System.out.println("total is " + total);
 	}
 }
