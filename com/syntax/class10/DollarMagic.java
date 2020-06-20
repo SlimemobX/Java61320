@@ -24,6 +24,10 @@ public class DollarMagic {
 			}
 			System.out.println();
 		}
+	
+	// HW Re-do this task without using nested if
+		// Hint: you should use logical
+	
 	}
 
 }
