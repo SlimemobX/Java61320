@@ -2,7 +2,7 @@ package com.syntax.class10;
 
 import java.util.Scanner;
 
-public class Recap {
+public class RecapFloorsAndRooms {
 	public static void main(String[] args) {
 		// there are 4 floors
 		// Room numbers go from 1.1, 1.2 .... 1.7
