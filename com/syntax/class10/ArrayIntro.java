@@ -26,7 +26,7 @@ public class ArrayIntro {
 		
 		// if the array is storing integers 
 		// when I get one element I will get one int
-		int elemnet0 = numbers[0];
+		int element0 = numbers[0];
 		
 		// We are just declaring; not initializing 
 		String[] carArray; // preferred way
@@ -55,6 +55,8 @@ public class ArrayIntro {
 		letters[2] = 'K';
 		
 		System.out.println("Printing after re-assigning " + letters[2]);
+		
+		
 	}
 
 }

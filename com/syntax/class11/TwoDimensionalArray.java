@@ -19,21 +19,21 @@ public class TwoDimensionalArray {
 		numbers [2][0] = 63;
 		numbers [2][1] = 66;
 		numbers [2][2] = 69;
-		numbers [2][3] = 472;
+		numbers [2][3] = 72;
 		
 		// print number 20
 		System.out.println(numbers[0][2]);
 		
 		
 		
-		// If we know the values upfront
+		// If we know the values up-front
 		int[][] nums = {
 				{10,15,20,25},
 				{32,36,40,44},
 				{63,66,69,72},				
 		};
-	System.out.println(numbers[2][0]);
-	System.out.println(numbers[1][3]);
+	System.out.println(numbers[2][0]); // 63
+	System.out.println(numbers[1][3]); // 44
 	}
 
 }
