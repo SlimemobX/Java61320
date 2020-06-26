@@ -25,7 +25,7 @@ public class InterviewQuestion4SecondLargestMinMax {
 			}
 		}
 
-		System.out.println(secondLargest);
+		System.out.println("The second largest number is: " + secondLargest);
 
 		int max = 0;
 		for (int num : arr) {
