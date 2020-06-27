@@ -13,6 +13,13 @@ public class CarFactory {
 		car1.speed = 200;
 		System.out.println("Make of first car is: " + car1.make);
 		
+		
+		System.out.println("-----Accessing methods fromCar class using car1-----");
+		car1.drive();
+		car1.reverse();
+		car1.transportPeople();
+		
+		
 		// Building an object of the car
 		Car car2 = new Car();
 		car2.make = "BMW";
@@ -21,9 +28,17 @@ public class CarFactory {
 		car2.year = 2018;
 		car2.speed = 240;
 		System.out.println("Make of second car is: " + car2.make);
+		
+		System.out.println("-----Accessing methods fromCar class using car2-----");
+		car2.drive();
+		car2.reverse();
+		car2.transportPeople();
+		
+		
 		// new Bus(); complier will give an error
 		// because we never created bus class
 		
+		// create 2 more cars
 		Car car3 = new Car();
 		car3.make = "Dodge";
 		car3.model = "Challenger";
@@ -32,6 +47,11 @@ public class CarFactory {
 		car3.speed = 230;
 		System.out.println("Make of third car is: " + car3.make);
 		
+		System.out.println("-----Accessing methods fromCar class using car3-----");
+		car3.drive();
+		car3.reverse();
+		car3.transportPeople();
+		
 		Car car4 = new Car();
 		car4.make = "Nissan";
 		car4.model = "GTR";
@@ -39,6 +59,11 @@ public class CarFactory {
 		car4.year = 2020;
 		car4.speed = 240;
 		System.out.println("Make of fourth car is: " + car4.make);
+		
+		System.out.println("-----Accessing methods from Car class using car3-----");
+		car4.drive();
+		car4.reverse();
+		car4.transportPeople();
 	}
 	
 	
