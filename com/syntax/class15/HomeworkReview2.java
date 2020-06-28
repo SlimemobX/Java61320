@@ -1,8 +1,8 @@
-package com.syntax.class14;
+package com.syntax.class15;
 
 import java.util.Scanner;
 
-public class Homework14_2 {
+public class HomeworkReview2 {
 	public static void main(String[] args) {
 //		Write a program that reads two people's first
 //		names and if they expecting boy or girl? 
@@ -30,28 +30,23 @@ public class Homework14_2 {
 		String babyGender1 = "boy";
 		String babyGender2 = "girl";
 		
-		String dad = dadName.substring(0,3);
-		String mom = momName.substring(2, 4);
-		
-		String mom2 = momName.substring(0, 2);
-		String dad2 = dadName.substring(3, 6);
-		
+		String boyName = dadName.substring(0,dadName.length()/2) + momName.substring(momName.length()/2);
+		String girlName = momName.substring(0, momName.length()/2) + dadName.substring(dadName.length()/2);
 		
 		
 	
 		
-		if (babyGender.equals(babyGender1)) {
-			String com = (dad+mom).toUpperCase();
+		if (babyGender.toLowerCase().equals(babyGender1)) {  // could use .equalsIgnoreCase();
+			String com = (boyName).toUpperCase();
 			System.out.println("Suggested baby name: " + com);
-		}else {
-			if (babyGender.equals(babyGender2)) {
-			String com2 = (mom2+dad2).toUpperCase();	
+		}else if (babyGender.equalsIgnoreCase(babyGender2)){ // could use .toLowerCase();
+			 
+			String com2 = (girlName).toUpperCase();	
 			System.out.println("Suggested baby name: " + com2);
-			}
+			
+		}else {
+			System.out.println("Unknown");
 		}
-		
-		
-		
 	}
 
 }
