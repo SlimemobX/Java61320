@@ -13,7 +13,7 @@ public class StringMethod {
 		System.out.println(name);
 		System.out.println(name1);
 		
-		
+
 		System.out.println("------------.length() method------------");
 		// methods of String class
 		String school = "Syntax";

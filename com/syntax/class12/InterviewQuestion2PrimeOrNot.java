@@ -63,6 +63,8 @@ public class InterviewQuestion2PrimeOrNot {
 	}
 	System.out.println("The number " + numbers + " is prime: " + prime3 );
 	
+	
+	
 	}
 
 }
