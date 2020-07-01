@@ -41,7 +41,14 @@ public class Repl86_103 {
 		
 		System.out.println(isPalindrome);
 		
-		  
+		System.out.println("----------------------repl 101------------");
+		 Scanner in = new Scanner(System.in);
+		    System.out.print("In:");
+		    String word = in.nextLine();
+		    //write your code below
+		    for (int s = 0; s < word.length(); s+=2) {
+		      System.out.print(word.charAt(s));
+		    }
 	}
 
 }
