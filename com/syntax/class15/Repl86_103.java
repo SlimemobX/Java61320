@@ -49,6 +49,70 @@ public class Repl86_103 {
 		    for (int s = 0; s < word.length(); s+=2) {
 		      System.out.print(word.charAt(s));
 		    }
+		    System.out.println("----------------repl 83------------------");
+		    Scanner inp1 = new Scanner(System.in);
+			System.out.print("In:");
+			String s = inp1.nextLine();
+			// write your code below
+
+			String newString = "";
+			for (int i = 0; i <= s.length() - 1; i++) {
+				
+				if(i!=s.length()-1) {
+					newString = newString + s.charAt(i) + " ";
+				}else {
+					newString = newString + s.charAt(i);
+				}
+				
+			}
+			
+			System.out.println(newString);
+	
+			System.out.println("---------------repl 104-----------");
+			Scanner input = new Scanner(System.in);
+			String[] arr = new String[5];
+		
+		  //storing names into array
+			for (int i=0;i<5;i++) {
+				arr[i] = input.nextLine();
+			}
+			
+			//printing first 3 characters of each String element
+		  for(String el: arr){
+		    System.out.println(el.substring(0,3));
+		  }
+			System.out.println("------------repl 105--------------");
+			// How I did it
+			  Scanner inp2 = new Scanner(System.in);
+			    System.out.print("In:");
+			    String word1 = inp2.nextLine();
+			    //write your code below
+			  for (int vowels = 0; vowels < word1.length(); vowels++){
+			    char c = Character.toLowerCase(word1.charAt(vowels));
+			  if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+			    System.out.print(word1.charAt(vowels));
+			  }
+			    
+			  }
+			  
+			  // How Teacher did it
+			  Scanner inp3 = new Scanner(System.in);
+			    System.out.print("In:");
+			    String word2 = inp3.nextLine();
+			    //write your code below
+			    String replace=word2.replaceAll("[^aAeEiIoOuU]", "");
+			    System.out.println(replace);
+			    
+			    System.out.println("--------------repl 107------------");
+				String givenString1 = "Hello Friends";
+
+				StringBuffer sb = new StringBuffer(givenString1);
+				sb.reverse();
+			
+				String reversedString1=sb.toString();
+				
+				System.out.println(reversedString1);
+	
 	}
 
 }

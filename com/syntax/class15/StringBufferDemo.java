@@ -12,6 +12,22 @@ public class StringBufferDemo {
 		str2.concat(" friend"); // new object gets created that will have value "Hello friends"-----> no one take it
 		
 		System.out.println(str2); // Hello
+	
+		
+		// How to use .toUpperCase() and .toLowerCase() in a StringBuffer
+		
+		StringBuffer str = new StringBuffer("Hello");
+	    
+	    str.append(" World");
+	    String str3 = str.toString().toUpperCase();
+	    
+	    System.out.println(str3);
+		
+	    // reverse StringBuffer
+	    StringBuffer str4 = new StringBuffer ("Hello Friends");
+	    str4.reverse();
+	    System.out.println(str4);
+	   
 	}
 
 }
