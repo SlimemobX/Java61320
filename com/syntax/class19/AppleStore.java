@@ -13,9 +13,10 @@ public class AppleStore {
 		phone1.color = "Blue";
 		
 		phone1.displayDetails();
-		phone1.displayInfo();
+		// phone1.displayInfo(); ----> possibly but not preferable way
+		Iphone.displayInfo(); // calling static method
 		
-		Iphone.touchScreen = false;
+		Iphone.touchScreen = false; // accessing static variable
 		
 		System.out.println("--------2nd Phone-------");
 		
@@ -26,11 +27,11 @@ public class AppleStore {
 		phone2.color = "Pink";
 		
 		phone2.displayDetails();
-		phone2.displayInfo();
+		Iphone.displayInfo();
 		
 		
 		System.out.println("--------Calling info method again--------");
-		phone1.displayInfo();
+		Iphone.displayInfo();
 		
 	}
 }
