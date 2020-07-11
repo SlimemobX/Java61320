@@ -13,6 +13,6 @@ public class Homework19 {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(Homework19.vowels("Goodbye"));
+		System.out.println(vowels("Goodbye"));
 	}
 }

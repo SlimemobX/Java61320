@@ -5,6 +5,9 @@ public class Example {
 		Iphone phone = new Iphone();
 		
 		phone.displayDetails();
+		
+//		int number;
+//		System.out.println(number);
 	}
 
 }
