@@ -15,6 +15,7 @@ public class AnimalTest {
 		a.eat();
 		
 		// object of child class has access to all var and methods of it is parent class and its own class
+		System.out.println("---------Dog-----------");
 		Dog dog = new Dog();
 		dog.breed = "Husky";
 		dog.color ="Yellow";
@@ -25,7 +26,7 @@ public class AnimalTest {
 		dog.sleep();
 		dog.bark();
 		
-		
+		System.out.println("---------Cat-----------");
 		Cats cat = new Cats();
 		cat.breed = "Meowth";
 		cat.color ="White";
@@ -36,6 +37,20 @@ public class AnimalTest {
 		cat.eat();
 		cat.sleep();
 		cat.purr();
+		
+		System.out.println("--------Kitten---------");
+		Kitten_HW kit = new Kitten_HW();
+		kit.breed = "meowth";
+		kit.color = "Black";
+		kit.paws = 4;
+		kit.tail = true;
+		kit.fur = "soft";
+		
+		kit.eat();
+		kit.sleep();
+		kit.food();
+		
+		
 		
 	}
 }
