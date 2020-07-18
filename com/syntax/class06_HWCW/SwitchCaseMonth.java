@@ -1,10 +1,10 @@
-package com.syntax.class06;
+package com.syntax.class06_HWCW;
 
 import java.util.Scanner;
 
 import java.util.Scanner;
 
-public class Homework1WithSwitch {
+public class SwitchCaseMonth {
 		public static void main(String[] args) {
 	
 			Scanner scan = new Scanner(System.in);

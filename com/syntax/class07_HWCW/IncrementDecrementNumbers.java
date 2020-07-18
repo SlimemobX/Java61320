@@ -1,6 +1,6 @@
-package com.syntax.class07;
+package com.syntax.class07_HWCW;
 
-public class Homework7 {
+public class IncrementDecrementNumbers {
 	public static void main(String[] args) {
 		
 		//1.Print numbers from 1 to 100 in 1 line with space

@@ -1,6 +1,6 @@
-package com.syntax.class07;
+package com.syntax.class07_HWCW;
 
-public class InClassTask {
+public class PrintNumbersWhileLoop {
 	public static void main(String[] args) {
 		// how to print 50 to 1
 		// how to print odd numbers from 1 to 20

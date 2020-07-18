@@ -1,6 +1,6 @@
-package com.syntax.class07;
+package com.syntax.class07_HWCW;
 
-public class InClassTask2 {
+public class WorkDayWhileLoop {
 	public static void main(String[] args) {
 		// create a boolean variable workDay and assign true 
 		//create int variable day and assign it to 1

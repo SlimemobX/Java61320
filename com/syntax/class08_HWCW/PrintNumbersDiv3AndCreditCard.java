@@ -1,8 +1,8 @@
-package com.syntax.class08;
+package com.syntax.class08_HWCW;
 
 import java.util.Scanner;
 
-public class InClassTask {
+public class PrintNumbersDiv3AndCreditCard {
 	public static void main(String[] args) {
 		// Print numbers from 1 to 50 except those that are divisible by 3
 		for (int a = 1; a <= 50; a++) {

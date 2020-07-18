@@ -1,8 +1,8 @@
-package com.syntax.class06;
+package com.syntax.class06_HWCW;
 
 import java.util.Scanner;
 
-public class InClassTask {
+public class SwitchCaseCountry {
 	
 	public static void main(String[] args) {
 		

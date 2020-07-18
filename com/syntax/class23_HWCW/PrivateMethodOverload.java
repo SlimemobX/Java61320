@@ -4,12 +4,9 @@ public class PrivateMethodOverload {
 	//	Create 1 class with a private method that has 3 overloaded forms. 
    //	Then call each overloaded method with specific arguments and observe result.
 	
-	String name;
-    String lastName;
-	int age;
+
 	
 	private PrivateMethodOverload(String name) {
-		this.name = name;
 		System.out.println("The name is " + name);
 	}
 	

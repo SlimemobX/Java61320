@@ -1,6 +1,6 @@
-package com.syntax.class07;
+package com.syntax.class07_HWCW;
 
-public class Homework7EvenOdds {
+public class IncrementDecrementEvenOdds {
 	public static void main(String[] args) {
 		
 		System.out.println("----------------------------------------Evens---------------------------------------------------------------");
