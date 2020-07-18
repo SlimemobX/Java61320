@@ -1,4 +1,4 @@
-package com.syntax.class01;
+package com.syntax.class01_HWCW;
 
 public class VariableValues {
 

@@ -14,7 +14,7 @@ public class ScannerSample {
 
 		// We are instructing the user what to enter
 		System.out.println("Please enter your full name");
-		// We are capturing the whole line into a text variablel
+		// We are capturing the whole line into a text variable
 		String name = input.nextLine();
 		System.out.println("Your name is " + name);
 		
