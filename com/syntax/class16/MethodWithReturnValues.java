@@ -1,5 +1,7 @@
 package com.syntax.class16;
 
+import com.syntax.class16_HWCW.InClassTask;
+
 public class MethodWithReturnValues {
 	public static void main(String[] args) {
 		// create a String and based on the number of character define whether String is
@@ -16,12 +18,6 @@ public class MethodWithReturnValues {
 		} else {
 			System.out.println("Created String is short");
 		}
-
-		// identify which number is the largest and then define whether this largest
-		// number is even or odd
-
-		InClassTask in = new InClassTask();
-		in.largest(10, 25);
 
 	}
 // create a method that will RETURN the largest number

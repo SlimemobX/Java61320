@@ -30,6 +30,6 @@ public static String str="Hello";
 	
 	//FINAL METHODS CANNOT BE OVERRIDDEN
 //	public void hello() { CE
-//		System.out.println("Sorry it not last helllo");
+//		System.out.println("Sorry it not last hello");
 //	}
 //}

@@ -1,6 +1,6 @@
 package com.syntax.class20_1;
 
-import com.syntax.class20.HW_DBZ;
+import com.syntax.class20_HWCW.HW_DBZ;
 
 public class DBZ2 {
 	public static void main(String[] args) {
