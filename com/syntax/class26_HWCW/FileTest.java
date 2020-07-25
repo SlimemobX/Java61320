@@ -24,5 +24,13 @@ public class FileTest {
 		pdf.close();
 		
 		
+		System.out.println("-----------Array way------------");
+		
+		File[] files = {new JavaFile(), new WordFile(), new PdfFile()};
+		for (File file : files) {
+			file.open();
+		}
+		
+		
 	}
 }
