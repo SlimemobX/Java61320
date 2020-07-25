@@ -1,4 +1,4 @@
-package com.syntax.class27;
+package com.syntax.class27_HWCW;
 
 public class MortgageTest {
 	public static void main(String[] args) {

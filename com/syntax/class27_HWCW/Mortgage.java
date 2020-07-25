@@ -1,4 +1,4 @@
-package com.syntax.class27;
+package com.syntax.class27_HWCW;
 
 public abstract class Mortgage {
 	
