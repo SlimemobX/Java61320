@@ -3,16 +3,22 @@ package com.syntax.class27_HWCW;
 public class MortgageTest {
 	public static void main(String[] args) {
 		
-		System.out.println("------------Objects of PNC----------");
+		System.out.println("------------PNC----------");
+		// Objects of Trustable type
 		Trustable trust = new PNC();
 		trust.trust();
 		
+		// Objects of Investments type
+		Investments invest = new PNC();
+		invest.doInvestments();
 		
+		// Objects of Bank type
 		Bank money = new PNC();
 		money.withdraw();
 		money.deposit();
 		money.trust();
 		
+		// Objects of PNC type
 		PNC pnc = new PNC();
 		pnc.withdraw();
 		pnc.deposit();
@@ -21,16 +27,22 @@ public class MortgageTest {
 		pnc.giveMortgage();
 		
 		
-		System.out.println("------------Objects of BOA----------");
+		System.out.println("------------BOA----------");
+		// Objects of Trustable type
 		Trustable trust2 = new BOA();
 		trust2.trust();
 		
+		// Objects of Investments type
+		Investments invest2 = new BOA();
+		invest2.doInvestments();
 		
+		// Objects of Bank type
 		Bank money2 = new BOA();
 		money2.withdraw();
 		money2.deposit();
 		money2.trust();
 		
+		// Objects of BOA type
 		BOA boa = new BOA();
 		boa.withdraw();
 		boa.deposit();
