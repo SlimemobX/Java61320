@@ -9,9 +9,9 @@ public class CountryStoring {
 		Country[] countr = {new USA("USA"),new Kazakhstan("Kazakhstan"), new Afghanistan("Afghanistan") };
 		
 		ArrayList<Country> countries = new ArrayList<>();
-		countries.add(new USA("USA"));
-		countries.add(new Kazakhstan("Kazakhstan"));
-		countries.add(new Afghanistan("Afghanistan"));
+		countries.add(new USA("USA"));// 0
+		countries.add(new Kazakhstan("Kazakhstan"));// 1
+		countries.add(new Afghanistan("Afghanistan"));// 2
 		
 		
 		System.out.println("----------- For Loop -----------");
