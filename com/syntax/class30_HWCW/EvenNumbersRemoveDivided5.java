@@ -24,7 +24,7 @@ public class EvenNumbersRemoveDivided5 {
 			}
 		}
 		
-		System.out.println("Removing even numbers divisible by 5 = " + numbersIt);
+		System.out.println("Removing even numbers divisible by 5 = " + num);
 		
 		
 	}
