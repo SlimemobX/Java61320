@@ -48,14 +48,14 @@ public class CollectionViewsOfMap {
 		Iterator<String>  keysIt = keys.iterator();
 		while(keysIt.hasNext()) {
 			String k =keysIt.next();
-			System.out.println(k);
+			System.out.println(k + " and it's value is "+ grocery.get(k));
 		
 		}
 		
 		System.out.println("------------Get all keys 1 by 1 using loop------------");
 		// I want to print key + pair together
-		for(String k: keys) {
-			System.out.println(k + " and it's value is "+ grocery.get(k));
+		for(String key: keys) {
+			System.out.println(key + " and it's value is "+ grocery.get(key));
 		}
 		
 		
