@@ -1,6 +1,8 @@
 package com.syntax.class31_HWCW;
 
+import java.util.Collection;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 
 public class MapOfBuliding {
@@ -39,7 +41,7 @@ public class MapOfBuliding {
 		System.out.println("-------Removing Company on 7th floor---------");
 		building.remove(7);
 		System.out.println(building);
-		
+	
 		
 		
 		
