@@ -1,6 +1,7 @@
 package com.syntax.class30;
 
 import java.util.Iterator;
+
 import java.util.LinkedList;
 
 public class LinkedListDemo {
