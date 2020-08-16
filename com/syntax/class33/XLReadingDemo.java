@@ -22,6 +22,7 @@ public class XLReadingDemo {
 		
 		Sheet sheet = workbook.getSheet("Sheet1");
 		
+		// get Lastname
 		Row row1 = sheet.getRow(0);
 		
 		Cell row1Cell3= row1.getCell(2);
@@ -30,6 +31,8 @@ public class XLReadingDemo {
 		
 		System.out.println(value);
 		
+		
+		// get John
 		Row row2 = sheet.getRow(1);
 		
 		String valueOfAnotherCell = row2.getCell(0).toString();
