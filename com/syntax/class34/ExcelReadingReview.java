@@ -15,7 +15,7 @@ public class ExcelReadingReview {
 		
 String xlPath = System.getProperty("user.dir") + "/testdata/SampleTestData.xlsx";
 		
-		FileInputStream fis = new FileInputStream(xlPath);
+		FileInputStream fis= new FileInputStream(xlPath);
 		
 		Workbook workbook = new XSSFWorkbook(fis);
 		
