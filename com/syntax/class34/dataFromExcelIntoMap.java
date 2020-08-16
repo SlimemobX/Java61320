@@ -52,6 +52,11 @@ public class DataFromExcelIntoMap{
 		
 		System.out.println(xlList);
 		
+		System.out.println("----------Printing one by one------------");
+		for (Map<String,String> lilMap:xlList) {
+			System.out.println(lilMap);
+		}
+		
 		
 	}
 
