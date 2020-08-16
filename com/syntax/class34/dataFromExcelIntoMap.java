@@ -12,7 +12,7 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class dataFromExcelIntoMap {
+public class DataFromExcelIntoMap{
 	
 	public static void main(String[] args) throws IOException {
 		
